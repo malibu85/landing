@@ -1,0 +1,15 @@
+#recipe {
+	background-image: url("../../images/balls.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	height: 20em;
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 3em;
+}
+#recipe h2 {
+	color: #592A25;
+}
+#recipe li {
+	color: #402319;
+}

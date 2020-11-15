@@ -1,0 +1,26 @@
+nav ul {
+	margin-top: 0.5em;
+}
+nav ul li {
+	display: inline-block;
+	background-color: #592A25;
+	color: white;
+	border-radius: 0.6em;
+	padding: 0.1em 1em;
+}
+nav ul li:hover {
+	background-color: #A68376;
+}
+nav a {
+	text-decoration: none;
+}
+nav a {
+	color: white;
+}
+nav div {
+	margin-left: 3em;
+	margin-bottom: 0em;
+	font-weight: bold;
+	color: #592A25;
+	letter-spacing: 0.2em;
+}

@@ -1,0 +1,26 @@
+#container {
+	display: flex;
+	background-image: url("../../images/block.jpg");
+	background-size: 5%;
+	background-repeat: repeat;
+	margin-bottom: 4em auto;
+	justify-content: space-around;
+}
+#container div {
+	width: 25%;
+	padding: 1em;
+	margin: 2em 0em;
+	background-color: #A68376;
+}
+#container a, #container a:visited {
+	background-color: white;
+	border-radius: 1em;
+	padding: 0.2em 1em;
+	text-decoration: none;
+	color: #592A25;
+	font-weight: bold;
+}
+#container a:hover {
+	color: white;
+	background-color: #592A25;
+}

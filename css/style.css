@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url("components/container.css");
+@import url("components/recipe.css");
+@import url("components/nav.css");
+body {	
+	padding: 0em;
+	margin: 0em;
+}
+h1, h2 {
+	font-family: 'Permanent Marker', cursive;
+}
+h1 {
+	color: #592A25;
+	font-size: 6em;
+	line-height: 0.9em;
+}
+h2 {
+	color: white;
+}
+footer {
+	height: 20em;
+	background-image: url("../images/drip.jpg");
+	background-size: cover;
+}
+header {
+	display: block;
+	height: 20em;
+	margin-left: 8em;
+}
+
+
+@media only screen and (max-width : 667px)  and (-webkit-device-pixel-ratio : 2){
+	h1 {
+		font-size: 4.5em;
+		margin-left: 0.4em;
+	}
+	#container {
+		flex-direction: column;
+		padding: 1em 0em;
+	}
+	#container div {
+		width:80%;
+		margin: 1em 2em;
+	}
+	#recipe {
+		height: 28em;
+	}
+}
